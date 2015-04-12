@@ -99,7 +99,11 @@ include ("../includes/layouts/header.php");
 		<br />
 		<p style="font-size: 17px; margin: 0; line-height: 1em;"><b>Visible:</b>  <?php echo $current_page["visible"]==1?'yes':'no'; ?></p>
 		<br />
-		<p style="font-size: 17px;  line-height: 1em;margin-top: -20px;margin-bottom: 20px;"><b>Send Email: </b><span style=  cursor: pointer;" class='st_email_large' displayText='Email'>Send Email to Authority</span></p>
+		<p style="font-size: 17px;  line-height: 1em;margin-top: -20px;margin-bottom: 20px;"><b>Send Email: </b>
+			<span style= "cursor: pointer; " class='st_email_large' displayText='Email'>
+				Send Email to Authority
+			</span>
+		</p>
 		<div class="ui teal submit button">
 		<a href="edit_page.php?page=<?php echo urlencode($current_page['id']); ?>">Edit activity</a>
 		</div>

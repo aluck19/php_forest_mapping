@@ -16,9 +16,6 @@
 
 </div><!-- bodyWrapper -->
 
-<!-- Angular JavaScript -->
-<script src="js/angular.min.js"></script>
-<script src="js/angular-route.min.js"></script>
 <!-- Main Script -->
 <script src="js/mainScript.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
